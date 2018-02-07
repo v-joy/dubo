@@ -21,5 +21,6 @@ func main() {
 	app.GET(prefix+"/articles", controller.ArticleList)
 	app.GET(prefix+"/article", controller.ArticleItem)
 
-	app.Run("123.56.88.120:8885")
+	//app.Run("123.56.88.120:8885")
+	app.Run(":8885")
 }
